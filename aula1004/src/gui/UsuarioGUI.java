@@ -260,7 +260,8 @@ public class UsuarioGUI extends javax.swing.JFrame {
     usuarios.setGenero(jTextField8.getText());
         
     if ((jTextField1.getText().isEmpty()) || (jTextField2.getText().isEmpty()) ||
-(jTextField3.getText().isEmpty()) || (jTextField4.getText().isEmpty())) {
+(jTextField3.getText().isEmpty()) || (jTextField4.getText().isEmpty() || jTextField5.getText().isEmpty()) || (jTextField6.getText().isEmpty()) ||
+(jTextField7.getText().isEmpty()) || (jTextField8.getText().isEmpty()))   {
  JOptionPane.showMessageDialog(null, "Os campos não podem retornar vazios");
 }else {
  // instanciando a classe UsuarioDAO do pacote dao e criando seu objeto dao
